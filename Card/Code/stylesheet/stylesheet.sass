@@ -1,0 +1,69 @@
+body
+  margin: 0
+  padding: 0
+  font-family: "Staatliches"
+  background-color: #121738
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  .card
+    margin-right: 20px
+    padding: 50px 0 40px 0
+    box-sizing: border-box
+    position: relative
+    width: 440px
+    height: 640px
+    background-color: white
+    text-align: center
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    overflow: hidden
+    cursor: pointer
+    &:hover
+      .circle
+        transform: scale(15)
+        opacity: 1
+      .card-text
+        a
+          color: white
+          letter-spacing: 2px
+    .circle
+      position: absolute
+      border-radius: 50%
+      background-color: #FFCC4C
+      opacity: 0.5
+      height: 100px
+      width: 100px
+      align-self: center
+      bottom: 100px
+      transition: all 400ms ease-in-out
+    .circle-designers
+      background-color: #61bfad
+      border-radius: 0
+    .circle-developers
+      background-color: #ef334a
+      transform: rotate(45deg)
+      border-radius: 0
+    .card-text
+      padding: 0 30px 0 30px
+      z-index: 1
+      h1
+        font-size: 51px
+        letter-spacing: 3px
+      p
+        font-family: "Roboto Mono"
+        margin-bottom: 50px
+      a
+        font-family: "Roboto Mono"
+        text-decoration: underline
+        color: black
+        transition: all 300ms ease-in
+    .card-image
+      position: relative
+      z-index: 1
+
+      img
+        transition: all 300ms ease-in
+        height: 200px
