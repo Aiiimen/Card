@@ -1,6 +1,6 @@
 # Card
 
->*3 Different hover animation applied to cards using shapes and translate options. 
+>*Three Different hover animation applied to cards using shapes and translate options.*
 
 A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colours, and powerful display options.
 For this project – I used 3 cards to display different content that can be used by an agency to help get illustrators, designers and developers jobs. 
